@@ -1,0 +1,10 @@
+2019-05-01 22:53:38.4439 INFO Giris yapan kullanici: burak
+2019-05-01 23:02:58.9469 INFO Giris yapan kullanici: burak
+2019-05-01 23:03:00.2408 ERROR burak Hatalý islem yaptý
+2019-05-01 23:03:09.5915 INFO Giris yapan kullanici: burak
+2019-05-01 23:03:14.0759 ERROR burak Hatalý islem yaptý
+2019-05-01 23:03:27.5877 INFO Kullanýcý adý:'3'parola1656 ile kullanýcý yanlýs login oldu
+2019-05-01 23:03:33.1562 INFO Kullanýcý adý:burasparola1555 ile kullanýcý yanlýs login oldu
+2019-05-01 23:03:36.4720 INFO Kullanýcý adý:burajparola456 ile kullanýcý yanlýs login oldu
+2019-05-01 23:09:19.9565 INFO Giris yapan kullanici: burak
+2019-05-01 23:09:24.1824 TRACE Cikis yapan kullanici: burak
