@@ -64,7 +64,7 @@ namespace teknokentyonetim
             void Database()
             {
                 // data base kontrol islemi
-                string baglantiSatiri = "Server=localhost;User ID=postgres;password=16121999;Database=teknokent";
+                string baglantiSatiri = "Server=localhost;User ID=******;password=******;Database=teknokent";
 
                 NpgsqlConnection baglanti = new NpgsqlConnection(baglantiSatiri);
                 NpgsqlCommandBuilder cm = new NpgsqlCommandBuilder();
@@ -149,7 +149,7 @@ namespace teknokentyonetim
                 sw.Close();
                 fs.Close();
 
-                string baglantiSatiri = "Server=localhost;User ID=postgres;password=16121999;Database=teknokent";
+                
 
                 NpgsqlConnection baglanti = new NpgsqlConnection(baglantiSatiri);
                 DataSet dataset = new DataSet();
@@ -159,42 +159,6 @@ namespace teknokentyonetim
                 add.Fill(dataset);
 
                 baglanti.Close();
-
-
-
-
-                //com.CommandText(get; "INSERT INTO hizmetler(isim,calisansayisi,kurulustarihi,sektor,firmaid) VALUES(@p1,@p2,@p3,@p4,@p5)"set{ yonetim1.firma_adi})
-                //NpgsqlCommand cmd = new NpgsqlCommand();
-                //cmd.CommandText = "INSERT INTO hizmetler(isim,calisansayisi,kurulustarihi,sektor,firmaid) VALUES(@p1,@p2,@p3,@p4,@p5)";
-                //cmd.Parameters.Add(("@p1", yonetim1.firma_adi, "@p2", yonetim1.firma_adi));//tim1.calisansayisi+yonetim1.kurulustarihi+yonetim1.sektor+yonetim1.firmaid);
-
-                //cmd.Parameters.Add("@p1", SqlDbType.VarChar).Value = alog.Log;
-
-                //cmd.ExecuteNonQuery();
-                //cmd.
-
-                //NpgsqlConnection conn = null;
-                //NpgsqlCommand cmd = null;
-
-
-                //    String sql = "INSERT INTO hizmetler(sim,calisansayisi,kurulustarihi,sektor,firmaid) " +
-                //    "VALUES (:p1,:p2,:p3,:p4,:p5)";
-
-                //cmd = new NpgsqlCommand(sql, conn);
-
-
-                //cmd.Parameters.AddWithValue("p1", yonetim1.firma_adi);
-                //cmd.Parameters.AddWithValue("p2", yonetim1.calisansayisi);
-                //cmd.Parameters.AddWithValue("p3", yonetim1.kurulustarihi);
-                //cmd.Parameters.AddWithValue("p4", yonetim1.sektor);
-                //cmd.Parameters.AddWithValue("p5", yonetim1.firmaid);
-
-
-
-
-
-
-
 
             }//firmabilgisi son
             void Hizmetler()
@@ -281,11 +245,7 @@ namespace teknokentyonetim
 
             }//otopark son
              ////////////////////////////////////////////////
-            string connectionString = "Server=localhost;Database=dbprueba2;User Id=dbprueba;Password=sistemas;";
-            IDbConnection dbConnection = new NpgsqlConnection(connectionString);
-            IDbCommand selectCommand = dbConnection.CreateCommand();
-            //NpgsqlCommand cmd = new NpgsqlCommand("insert into login (Name, Password) values(:name, :pw)",);
-            // cmd.ExecuteNonQuery();
+            
 
            
             ///////////////////////////////////////////////
