@@ -52,7 +52,7 @@ namespace teknokentyonetim
         {
 
             //              Dosya yazım alanı
-            string dosya_yolu = @"C:\Users\balug\OneDrive\Masaüstü\BIB\teknokentyonetim\kayitlar.txt";
+            string dosya_yolu = @"C:\Users\Masaüstü\kayitlar.txt";// sizde programın bulunduğu yer
             FileStream fs = new FileStream(dosya_yolu, FileMode.OpenOrCreate, FileAccess.Write);
             StreamWriter sw = new StreamWriter(fs);
             //
